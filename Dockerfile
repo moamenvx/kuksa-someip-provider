@@ -126,5 +126,4 @@ ENV VSOMEIP_CONFIGURATION=/app/bin/config/someip_wiper_client.json
 ENV LD_LIBRARY_PATH=/app/lib:$LD_LIBRARY_PATH
 
 # Set the command to run the wiper_client binary.
-# Adjust the command-line options as needed (here we use the suggested ones).
-CMD [ "/app/bin/wiper_client", "--mode", "2", "--freq", "40", "--pos", "110.0" ]
+CMD [ "/app/bin/wiper_client", "--mode", "2", "--freq", "50", "--pos", "110.0" ]
