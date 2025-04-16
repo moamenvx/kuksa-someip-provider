@@ -78,7 +78,7 @@ jobs:
 
   build_docker:
     # reduce runtime requirements from ubuntu, ubuntu-18.04 fails for aarch64
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     name: Build Docker
     needs: check_ghcr_push
 
